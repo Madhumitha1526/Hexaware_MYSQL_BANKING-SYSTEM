@@ -61,17 +61,17 @@ INSERT INTO Accounts (account_id, customer_id, account_type, balance) VALUES
 
 select * from Accounts;
 
-INSERT INTO Transactions (transaction_id, account_id, transaction_type, amount, transaction_date) VALUES
-(1001, 101, 'deposit', 2000.00, '2025-04-01'),
-(1002, 102, 'withdrawal', 3000.00, '2025-04-02'),
-(1003, 103, 'deposit', 1500.00, '2025-04-03'),
-(1004, 104, 'withdrawal', 1200.50, '2025-04-04'),
-(1005, 105, 'deposit', 5000.00, '2025-04-05'),
-(1006, 106, 'deposit', 700.00, '2025-04-06'),
-(1007, 107, 'deposit', 2000.00, '2025-04-07'),
-(1008, 108, 'withdrawal', 1700.00, '2025-04-08'),
-(1009, 109, 'deposit', 900.00, '2025-04-09'),
-(1010, 110, 'withdrawal', 2000.00, '2025-04-10');
+INSERT INTO Transactions (transaction_id, account_id, transaction_type, amount) VALUES
+(1001, 101, 'deposit', 2000.00),
+(1002, 102, 'withdrawal', 3000.00),
+(1003, 103, 'deposit', 1500.00),
+(1004, 104, 'withdrawal', 1200.50),
+(1005, 105, 'deposit', 5000.00),
+(1006, 106, 'deposit', 700.00),
+(1007, 107, 'deposit', 2000.00),
+(1008, 108, 'withdrawal', 1700.00),
+(1009, 109, 'deposit', 900.00),
+(1010, 110, 'withdrawal', 2000.00);
 
 select * from Transactions;
 
